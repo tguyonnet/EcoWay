@@ -1,0 +1,17 @@
+{
+    "require": {
+        "slim/slim": "^3.11",
+        "fzaninotto/faker": "^1.8",
+        "gabordemooij/redbean": "^5.1",
+        "pelmered/fake-car": "^1.2",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kernel\\": "kernel/",
+            "Controllers\\":"app/Controllers",
+            "Models\\":"app/Models"
+        }
+    }
+
+}
